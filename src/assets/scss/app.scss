@@ -1,0 +1,24 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import "_header.scss";
+@import "_footer.scss";
+
+
+// SEPT 13 CLASS SALES TEMPLATE STYLES
+@import "_sept-13-class-sales.scss";
+
+
+// CUSTOM CONTENT TEMPLATE STYLES
+// @import "_custom-content.scss";
+
+
+
+
+// AWeber default edits
+@import "_aweber-edits.scss";
+
+
+body {
+	background: #F0F0F0;
+}

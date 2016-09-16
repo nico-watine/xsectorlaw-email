@@ -1,0 +1,25 @@
+@import "_settings.scss";
+
+.header {
+	background: #1A1A1A;	
+
+	.logo-wrapper {
+		padding-top: 16px;
+
+		img.logo {
+			width: 120px;
+			height: 43px;
+			display: inline-block;
+		}
+
+		a.c2a-link {
+			text-align: right;
+			float: right;
+			padding-top: 8px;
+
+			img {
+				display: inline-block;
+			}
+		}
+	}
+}

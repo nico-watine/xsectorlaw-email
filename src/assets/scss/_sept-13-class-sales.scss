@@ -1,0 +1,49 @@
+@import "_settings.scss";
+
+
+.courses-title {
+	padding-top: 24px;
+
+	h2 {
+		font-size: 24px;
+	}
+}
+
+.online-courses-header {
+	h3 {
+		font-size: 22px;
+	}
+}
+
+.live-courses-header {
+	h3 {
+		margin-top: 10px;
+		font-size: 22px;
+	}
+}
+
+.course-details {
+	p.date {
+		font-size: 16px;
+		color: #000 !important;
+		text-decoration: none !important;
+		margin-bottom: 4px;
+	}
+
+	.title {
+		font-size: 16px;
+		color: #006576;
+		margin-bottom: 4px;
+	}
+
+	.description {
+		font-size: 14px;
+		color: #8A8A8A;
+	}
+}
+
+.full-course-listing-link {
+	padding-top: 30px;
+	padding-bottom: 30px !important;
+}
+

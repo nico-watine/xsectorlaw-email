@@ -1,0 +1,18 @@
+@import "_settings.scss";
+
+.footer {
+	background: #1A1A1A;
+	padding-top: 30px;
+
+	p,
+	p a {
+		color: #ffffff;
+		font-size: 14px;
+		letter-spacing: 0.5px;
+		margin-bottom: 18px;
+	}
+
+	p a {
+		text-decoration: underline;
+	}
+}

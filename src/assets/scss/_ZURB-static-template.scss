@@ -1,0 +1,87 @@
+@import "_settings.scss";
+
+span.inline-block {
+	display: inline-block;
+}
+
+.header {
+	background: #1A1A1A;	
+
+	.logo-wrapper {
+		padding-top: 16px;
+
+		img.logo {
+			width: 120px;
+			display: inline-block;
+		}
+
+		a.c2a-link {
+			color: #fff !important;
+			float: right;
+			padding-top: 12px;
+		}
+	}
+}
+
+.courses-title {
+	padding-top: 24px;
+
+	h2 {
+		font-size: 26px;
+	}
+}
+
+.online-courses-header {
+	h3 {
+		font-size: 26px;
+	}
+}
+
+.live-courses-header {
+	h3 {
+		margin-top: 10px;
+		font-size: 26px;
+	}
+}
+
+.course-details {
+	p.date {
+		font-size: 18px;
+		color: #000 !important;
+		text-decoration: none !important;
+		margin-bottom: 4px;
+	}
+
+	.title {
+		font-size: 18px;
+		color: #006576;
+		margin-bottom: 4px;
+	}
+
+	.description {
+		font-size: 15px;
+		color: #8A8A8A;
+	}
+}
+
+.full-course-listing-link {
+	padding-top: 30px;
+	padding-bottom: 30px !important;
+}
+
+.footer {
+	background: #1A1A1A;
+	padding-top: 30px;
+
+	p,
+	p a {
+		color: #fff;
+		font-size: 14px;
+		letter-spacing: 0.5px;
+		margin-bottom: 18px;
+	}
+
+	p a {
+		text-decoration: underline;
+	}
+}
